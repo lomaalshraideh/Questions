@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5</title>
+    <style>
+     .container{
+         border: 1px solid black; 
+          padding: 30px;
+          margin: 30px;
+          border-radius: 25px;
+             }
+
+             /* input[type="text"],
+             input[type="email"],
+             textarea{
+                width: 100%;
+                box-sizing: border-box;
+                padding-right: 10px;
+              **** form one ****
+             } */
+             .forms{
+           width: 100%;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+             }
+         
+           
+         
+             .label{
+              width: 20%;
+             }
+             .input{
+               width:80%;
+             }
+     #message{
+height: 100px;
+width: 241px;
+     }
+     .third-form{
+      border: 2px solid black;
+     }
+     .sub-third-form{
+      padding: 20px;
+     }
+     #textarea3{
+      height: 100px;
+      width: 250px;
+     }
+          table{
+          border: 1.5px solid black;
+          border-collapse: collapse;
+        
+         } 
+          td,th{
+          border: 1.5px solid black;
+          padding: 5px;
+         } 
+     .table2{
+      border-color: lightgray;
+     
+      width: 100%;
+     }
+  /* tr:nth-child(even){
+    background-color: lightgray;
+    
+  } */
+  #message4{
+
+    height: 100px;
+  }
+  #textarea5{
+    height: 75px;
+  }
+  button{
+    width: 120px;
+    height: 50px;
+  }
+  .form-color{
+    width: 100%;
+    background-color:darkslateblue
+  }
+  .head-form{
+ 
+    text-align: center;
+    color:  white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .inner-form{
+    width: 70%;
+    margin: 40px;
+    background-color:navy ;
+  }
+     .inner-inner-form{
+      width: 100%;
+      margin: 20px;
+      padding: 20px
+  ;
+  color: white;
+     }
+     #input-form{
+      padding: 7px;
+      width: 100%;
+    height: 30px;}
+    #textarea6{
+      width: 73%;
+      height: 150px;
+    }
+    #submit {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#sumbit:hover {
+  background-color: #45a049;
+}
+.select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+     </style>
+</head>
+<body>
+    <div class="container">
+         <form>
+            <div class="forms">
+                <div class="label">
+         <label for="name">Name:</label>
+        </div>
+         <input type="text" id="name" name="name"><br>
+        
+        </div>
+        <div class="forms">
+          <div class="label">
+          <label for="email">Email:</label>
+          </div>
+         
+          <input type="email" id="email" name="email"><br>
+        </div>
+        
+          <div class="forms">
+            <div class="label">
+          <label for="message">Messagse:</label>
+            </div>
+          
+          <textarea id="message1" name="message"></textarea>
+          </div>
+      <div class="forms">
+         <input type="submit" value="Submit">
+      </div>
+         </form>
+    </div>
+    <hr>
+    <br>
+    <form>
+      <div class="second-form">
+      <label for="First Name">First Name</label>
+      <input type="text"> <br>
+      <label for="Surename">Surename</label>
+      <input type="text"><br>
+      <label for="Email">Email</label>
+      <input type="email"><br>
+      <div class="textarea">
+      <textarea name="message" id="message"></textarea><br>
+    </div>
+      <input type="submit">
+   
+    </div>
+    </form>
+    <p>&#169 <a href="https://github.com/dashboard">Here is my GitHub page</a></p>
+
+<hr>
+<div class="third-form">
+  <div class="sub-third-form">
+  <form >
+<label for="Name">Name</label>
+<input type="text">
+<br>
+<br>
+<label for="Gender">Gender</label>
+<input type="radio" id="Male" name="Gender" value="Male">
+<label for="Male">Male</label>
+<input type="radio" name="Gender" id="Female" value="Female">
+<label for="Femal">Female</label><br>
+<br>
+<label for="country">country:</label>
+<select name="country" id="country">
+  <option value="option">select an option</option>
+<option value="ksa">ksa</option>
+<option value="usa">usa</option>
+<option value="japan">japan</option>
+</select>
+<br><br>
+<label for="textarea">Message:</label><br>
+<textarea name="message" id="textarea3"></textarea>
+<br><br>
+<input type="checkbox">
+<label for="checkbox">Subscribe?</label>
+<br><br>
+<input type="submit">
+  </form>
+</div>
+</div>
+<hr>
+<table>
+  <tr>
+    <th colspan="2">Sign In</th>
+  </tr>
+  <tr>
+    <td>E-mail address</td>
+    <td><input type="text" id="input-table"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" ></td>
+  </tr>
+  <tr>
+    <th colspan="2">
+      <input type="submit" value="sgin in" >
+    </th>
+  </tr>
+</table>
+<hr>
+<iframe  width="300px"  height="300px" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" frameborder="0">
+</iframe>
+<br>
+<hr>
+<h1>Welcome to Coding Inro</h1>
+<h2> About Programming</h2>
+<p>A programming language is a system of notation for writing computer programs. Programming languages are described in terms of their syntax (form) and semantics (meaning), usually defined by a formal language. Languages usually provide features such as a type system, variables, and mechanisms for error handling.</p>
+<h3>About HTML</h3>
+<p>HTML describes the structure of a web page semantically and originally included cues for its appearance. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page.</p>
+<h3>About CSS</h3>
+<p>Why Use CSS? CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.</p>
+<label for="Fisrt name">Fisrt name:</label><br>
+<input type="text" placeholder="luma"><br>
+<label for="Last name">Last name:</label><br>
+<input type="text" placeholder="shraideh"><br><br>
+<input type="submit">
+<hr>
+<table class="table-2">
+  <tr >
+  <th>List of Programming language</th>
+  <th>Full name of the Programming language</th>
+  <th>When it was founded</th>
+  </tr>
+  <tr >
+  <td>HTML</td>
+  <td>Hyper text markup Languge</td>
+  <td>1989</td>
+  </tr>
+  <tr >
+  <td>CSS</td>
+  <td>Casscading style sheets</td>
+  <td>1994</td>
+  </tr>
+  <tr >
+  <td>JS</td>
+  <td>JavaScript</td>
+  <td>1995</td>
+  </tr>
+  <tr >
+  <td>Java</td>
+  <td>java</td>
+  <td>1991</td>
+  </tr>
+  <tr >
+  <td>PHP</td>
+  <td>Hypertext Preprocessor</td>
+  <td>1994</td>
+  </tr>
+</table>
+
+
+<hr>
+<p>Contact Us!</p>
+<br><br>
+<input type="text" placeholder="Name..."><br><br>
+<input type="email" placeholder="Email..."><br><br>
+<input type="text" placeholder="Subject"><br><br>
+<textarea name="" id="message4" placeholder="Message..." ></textarea><br><br>
+<BUtton>SEND MESSAGE</BUtton>
+<hr>
+<h2><a href="https://en.wikipedia.org/wiki/Boat">Boats</a></h2>
+<img src="data:image/jpeg;base64,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" alt="Boats">
+<br> <h3>Description</h3>
+<p>A boat is a watercraft of a large range of types and sizes, but generally smaller than a ship, which is distinguished by its larger size or capacity, ...
+</p>
+<iframe  width="300px"   src="https://youtu.be/oMXxES49Naw?si=fFYe_4hMk85bkChv?autoplay=1&mute=1" frameborder="0">
+</iframe>
+<hr>
+<h1>The fieldset elements</h1>
+<fieldset>
+  <legend> Personalia</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+</fieldset>
+<hr>
+<table>
+  <tr>
+    <th colspan="2">Registration Form</th>
+  </tr>
+  <tr>
+    <td>E-mail address</td>
+    <td><input type="text" id="input-table"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="password" ></td>
+  </tr>
+  <tr>
+    <td>Email Address</td>
+    <td><textarea  name="" id="textarea5"></textarea></td>
+  </tr>
+  <tr>
+    <td>Select Game</td>
+    <td>
+      <input type="checkbox">
+    <label for="checkbox">Hockey</label><br>
+      <input type="checkbox">
+    <label for="checkbox">Football</label><br>
+      <input type="checkbox">
+    <label for="checkbox">Badmonton</label><br>
+      <input type="checkbox">
+    <label for="checkbox">Cricket</label><br>
+      <input type="checkbox">
+    <label for="checkbox">volleyball</label><br>
+  </td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td><input type="radio" id="Male" name="Gender" value="Male">
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Female" value="Female">
+      <label for="Female">Female</label><br></td>
+  </tr>
+  <tr>
+    <td>Select ur age</td>
+    <td><select name="" id="">
+      <option value="select">select</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>select photo</td>
+    <td><input type="file"></td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="3">
+  <BUtton >Click me</BUtton>
+  <BUtton >Reset</BUtton><br>
+  <BUtton >Submit Form</BUtton><br>
+  
+    </td>
+  </tr>
+</table>
+<hr>
+<div class="form-color">
+<p  class="head-form"> <b>Amman Coding Academy Survey Form</b></p >
+  <p  class="head-form"> Thank you for taking the time to help</p>
+<div class="inner-form">
+  <div class="inner-inner-form">
+<form>
+<label for="name"> <b>Name </b></label><br><br>
+<input  id="input-form" type="text" placeholder="Enter"><br><br>
+<label for="E-mail"><b>E-mail</b></label><br><br>
+<input id="input-form" type="text" placeholder="Enter your Email"><br><br>
+<label for="Age"> <b>Age (optional) </b></label><br><br>
+<input id="input-form" type="number" placeholder="Age"><br><br>
+<label for="text"><b>How did you like my survey</b></label><br><br>
+<select class="select" name="How did you like my survey" id="">
+  <option value="How did you like my survey">How did you like my survey</option>
+</select>
+<br><br>
+<label for="text"><b>Would you recommend my pen to a friend?</b></label><br><br>
+
+<input type="radio" id="Definitly" name="Gender" value="Definitly">
+      <label for="Definitly">Definitly</label><br>
+
+      <input type="radio" id="Maybe" name="Gender" value="Maybe">
+      <label for="Maybe">Maybe</label><br>
+      <input type="radio" name="text" id="Not sure" value="Not sure">
+      <label for="Maybe">Not sure</label><br><br>
+      <label for="text"><b>What is your favorite feature fo codepen?</b></label><br><br>
+      <select class="select" name="Select an option" id="" >
+        <option  value="" disabled selected hidden>select an option</option>
+        <option  value="Select an option">Select an option</option>
+      </select>
+<label for="checkbox"><b>What should you like to see improved in my survey? </b>  (Check all that)</label><br><br>
+<input type="checkbox">
+<label for="checkbox"><b>CSS needs to be more complex</b></label><br>
+  <input type="checkbox">
+<label for="checkbox"><b>Use some javascript</b></label><br>
+  <input type="checkbox">
+<label for="checkbox"><b>No changes required</b></label><br><br>
+<label for="textarea"><b>Any comments or suggestions? </b></label><br><br>
+<textarea name="" id="textarea6" placeholder="Enter your comment here..."></textarea><br><br>
+<input id="submit" type="submit" value="submit">
+
+
+     
+
+
+
+
+
+
+</form>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+</body>
+</html>
